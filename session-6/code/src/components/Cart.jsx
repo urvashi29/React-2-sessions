@@ -1,6 +1,6 @@
-import React, { useMemo, memo } from "react";
+import React, { useMemo, memo, useEffect } from "react";
 
-const Cart = memo(({ cart }) => {
+const Cart = ({ cart }) => {
   console.log("cart data");
 
   const totalPrice = useMemo(() => {
@@ -16,6 +16,6 @@ const Cart = memo(({ cart }) => {
       ))}
     </div>
   );
-});
+}
 
 export default Cart;
