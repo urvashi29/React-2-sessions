@@ -1,0 +1,2 @@
+export const ADD_PRODUCTS = "ADD_PRODUCTS";
+export const TOGGLE_WISHLIST = "TOGGLE_WISHLIST";
